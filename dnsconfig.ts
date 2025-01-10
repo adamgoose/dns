@@ -18,8 +18,8 @@ D(
   //@ts-ignore
   R53_ALIAS("@", "A", "home.enge.me."),
   CNAME("*", "@"),
-  CNAME("learn", "truss.nonprod-cmh.truss.bridgeops.sh."),
-  CNAME("learn-prod", "truss.prod-cmh.truss.bridgeops.sh."),
+  CNAME("learn", "traefik.nonprod-cmh.truss.bridgeops.sh."),
+  CNAME("learn-prod", "traefik.prod-cmh.truss.bridgeops.sh."),
   CNAME(
     "protonmail2._domainkey",
     "protonmail2.domainkey.dgq2ku4uxqxz2gn7o3vzpifn3y4n3ip6awdr2zbchr4fddqfevorq.domains.proton.ch."
@@ -45,7 +45,7 @@ D(
 
 D(
   "engeson.com",
-  REG_NONE,
+  REG_R53,
   DnsProvider(DNS_BIND),
   DnsProvider(DNS_R53),
   NAMESERVER_TTL(172800),
@@ -61,7 +61,7 @@ D(
 
 D(
   "riellfamily.com",
-  REG_NONE,
+  REG_R53,
   DnsProvider(DNS_BIND),
   DnsProvider(DNS_R53),
   NAMESERVER_TTL(172800),
@@ -95,7 +95,7 @@ D(
 
 D(
   "midtech-sales.com",
-  REG_NONE,
+  REG_R53,
   DnsProvider(DNS_BIND),
   DnsProvider(DNS_R53),
   NAMESERVER_TTL(172800),
