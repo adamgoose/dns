@@ -118,3 +118,21 @@ D(
   CNAME("google2169fce7652f15d1", "google.com."),
   CNAME("d237byov35ko", "gv-syznmy6c6m6d5u.dv.googlehosted.com.")
 );
+
+D(
+  "no-bellind.com",
+  REG_R53,
+  DnsProvider(DNS_BIND),
+  DnsProvider(DNS_R53),
+  NAMESERVER_TTL(172800),
+  MX("@", 1, "aspmx.l.google.com."),
+  MX("@", 5, "alt1.aspmx.l.google.com."),
+  MX("@", 5, "alt2.aspmx.l.google.com."),
+  MX("@", 10, "alt3.aspmx.l.google.com."),
+  MX("@", 10, "alt4.aspmx.l.google.com."),
+  TXT("@", "v=spf1 include:_spf.google.com ~all"),
+  CNAME("calendar", "ghs.googlehosted.com."),
+  CNAME("docs", "ghs.googlehosted.com."),
+  CNAME("mail", "ghs.googlehosted.com."),
+  CNAME("sites", "ghs.googlehosted.com.")
+);
