@@ -134,5 +134,6 @@ D(
   CNAME("calendar", "ghs.googlehosted.com."),
   CNAME("docs", "ghs.googlehosted.com."),
   CNAME("mail", "ghs.googlehosted.com."),
-  CNAME("sites", "ghs.googlehosted.com.")
+  CNAME("sites", "ghs.googlehosted.com."),
+  CNAME("djmdy6kun372", "gv-c2wpjrm5cz5vn5.dv.googlehosted.com.")
 );
